@@ -19,7 +19,7 @@ __credits__ = ["DaveVR", "maximuszesala", "BenG"]
 __license__ = "GPLv3"
 __version__ = "0.0.1"
 __email__ = "luminosity@freemre.com"
-__discord__ = "luminosity_altvr#6969"
+__discord__ = "luminosity#6969"
 
 import bpy
 import sys
