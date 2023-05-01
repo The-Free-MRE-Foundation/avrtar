@@ -1,5 +1,9 @@
-# Preserve My Avatars Web App
-## Configure
+# Avrtar: (AltspaceVR Avatar app)
+An app to help altspacer preserve avatars before Altspace shuts down.  
+By [DaveVR](https://discord.com/users/425958565812109342), [Luminosity](https://discord.com/users/508212993574567958) and [Max](https://discord.com/users/548094385750016000). Special thanks to [BenG](https://discord.com/users/321369881989611522) for all the help.
+
+## 1. Preserve My Avatars Web App
+### Configure
 - edit next.config.js:
     ```js
     /** @type {import('next').NextConfig} */
@@ -46,20 +50,20 @@
     WEBHOOK_NAME=your_web_hook_name
     WEBHOOK_URL=your_web_hook_url
     ```
-## Build and Run
+### Build and Run
 ```bash
 npm install
 npm run build
 npm start_prod
 ```
 
-## TODOs
+### TODOs
 - responsiveness
 - containerize & k8s
 
-# Altspace Avatar Assembler
+## 2. Altspace Avatar Assembler
 
-## Prerequisites
+### Prerequisites
 - for `-r` or `--rig`:  
 [Auto-Rig Pro ](https://blendermarket.com/products/auto-rig-pro)(v3.67.18)
 - for `-c` or `--vrc`:
@@ -68,7 +72,7 @@ npm start_prod
   - [material-combiner-addon](https://github.com/Grim-es/material-combiner-addon)  
 (only one version as of writting)
 
-## Usage
+### Usage
 ```
 usage: blender.exe -b --python avatar.py -- [-h] [-i [INPUT]] [-o [OUTPUT]] [-p] [-t] [-r] [-c]
 
@@ -84,7 +88,7 @@ options:
   -c, --vrc             optimize for vrc (default: False)
 ```
 
-## Example
+### Example
 - read customization file from stdin
 ```
 cat example.json | blender.exe -b --python avatar.py
@@ -92,7 +96,7 @@ cat example.json | blender.exe -b --python avatar.py
 
 - to pass options to python, use the double-dash (`--`):
 ```
-# The following command will: generate preview, extra thicc and autorig
+## The following command will: generate preview, extra thicc and autorig
 blender.exe -b --python avatar.py -- \
     -i example.json \
     -o Exports/example/example.fbx \
@@ -101,10 +105,10 @@ blender.exe -b --python avatar.py -- \
     -r
 ```
 
-## TODOs
+### TODOs
 - eyes and mouth for VRC
 
-# VRC Uploader
+## 3. VRC Uploader
 - run in batch mode:
 ```
 Unity.exe -batchmode -nographics -executeMethod upload.AutoUpload -logFile log.txt -username yourusername -email youremail
