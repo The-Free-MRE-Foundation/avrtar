@@ -114,5 +114,11 @@ blender.exe -b --python avatar.py -- \
 Unity.exe -batchmode -nographics -executeMethod upload.AutoUpload -logFile log.txt -username yourusername -email youremail
 ```
 
+# Join Us
+### vrsocial.org  
+[![Discord](https://img.shields.io/badge/Discord-%23CC2222.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/7DPWRYNWuC)
+### freemre.com
+[![Discord](https://img.shields.io/badge/Discord-%230078D7.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/yStWGYcgKJ)
+
 ---
 > **Note** the models and textures are not included, they are properties of Microsoft
