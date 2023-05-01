@@ -1,0 +1,326 @@
+{
+  "color_palette": {
+    "Hair Color": [
+      0.8362193,
+      0.3029343,
+      0.6874468,
+      1
+    ],
+    "Hair Dye Color": [
+      0.1950393,
+      0.7983433,
+      0.1834745,
+      1
+    ],
+    "Generic Hat Color": [
+      0.7793761,
+      0.2974992,
+      0.6759715,
+      1
+    ],
+    "Summer_Straw_001 Color": [
+      0.9056604,
+      0.8221194,
+      0.6237095,
+      1
+    ],
+    "Generic Hat Secondary Color": [
+      0.9056604,
+      0.9056604,
+      0.9056604,
+      1
+    ],
+    "Eye Color": [
+      0.7602535,
+      0.2826924,
+      0.6046799,
+      1
+    ],
+    "Mouth Color": [
+      0.6,
+      0.4,
+      0.3019608,
+      1
+    ],
+    "SkinColor": [
+      0.9137256,
+      0.7333333,
+      0.6470588,
+      1
+    ],
+    "Generic Top Color": [
+      0.6845916,
+      0.3135671,
+      0.5255809,
+      1
+    ],
+    "Button-Up Plaid Colors": [
+      0.6117647,
+      0.2196079,
+      0.1843137,
+      1
+    ],
+    "Denim_Shirt_001_Colors": [
+      0.2431373,
+      0.4156863,
+      0.5764706,
+      1
+    ],
+    "Generic Top Secondary Color": [
+      0.9056604,
+      0.9056604,
+      0.9056604,
+      1
+    ],
+    "Onesie_Hooded_001 Colors": [
+      0.0927905,
+      0.8935537,
+      0.2190346,
+      1
+    ],
+    "Biker Jacket Color": [
+      0.2445963,
+      0.6269857,
+      0.1211321,
+      1
+    ],
+    "Blazer_Tuxedo_001_Colors": [
+      0.9487505,
+      0.9001586,
+      0.9001586,
+      1
+    ],
+    "Colors_Cardigan_Short_001": [
+      0.5254902,
+      0.5450981,
+      0.5764706,
+      1
+    ],
+    "Colors_Cardigan_Short_001_Patterned": [
+      0.7176471,
+      0.5254902,
+      0.3176471,
+      1
+    ],
+    "Colors_Cardigan_Long_001": [
+      0.732821,
+      0.5119805,
+      0.7815019,
+      1
+    ],
+    "Colors_Jacket_Bomber_001": [
+      0.6981132,
+      0,
+      0.01333043,
+      1
+    ],
+    "Kimono_001_Colors": [
+      0.1137255,
+      0.1254902,
+      0.1960784,
+      1
+    ],
+    "Hoodie_ZipUp_001_Colors": [
+      0.245283,
+      0.245283,
+      0.245283,
+      1
+    ],
+    "Generic Jacket Secondary Color": [
+      0.9056604,
+      0.9056604,
+      0.9056604,
+      1
+    ],
+    "Jacket_Field_001_Colors": [
+      0.5524927,
+      0.5849056,
+      0.4579921,
+      1
+    ],
+    "Shirt_Jacket_001_Colors": [
+      0.1400722,
+      0.6568624,
+      0.2803241,
+      1
+    ],
+    "Shawl_001_Colors": [
+      0.245283,
+      0.245283,
+      0.245283,
+      1
+    ],
+    "Open_Front_Cloak_001_Colors": [
+      0.509804,
+      0.2901961,
+      0.3764706,
+      1
+    ],
+    "Coat_LooseCloak_Hoodie_001_Colors": [
+      0.2047882,
+      0.2219604,
+      0.3679245,
+      1
+    ],
+    "Parka_Furhood_001_Colors": [
+      0.3207547,
+      0.1482734,
+      0.1752236,
+      1
+    ],
+    "Jacket_Parka_001_Plain_Colors": [
+      0.2078432,
+      0.2078432,
+      0.2078432,
+      1
+    ],
+    "Jacket_Parka_001_Plaid_Colors": [
+      0.7529412,
+      0.627451,
+      0.3764706,
+      1
+    ],
+    "Jacket_Toggle_003_Colors": [
+      0.9760298,
+      0.9710847,
+      0.9153777,
+      1
+    ],
+    "Trenchcoat_001_Colors": [
+      0.4056604,
+      0.2717722,
+      0.1722143,
+      1
+    ],
+    "Generic Bottoms Color": [
+      0.694039,
+      0.2783499,
+      0.5513536,
+      1
+    ],
+    "Generic Glasses Color": [
+      0.4570021,
+      0.2612322,
+      0.4088441,
+      1
+    ],
+    "NailColor": [
+      0.6324913,
+      0.1843137,
+      0.7843138,
+      1
+    ]
+  },
+  "blend_sets": {
+    "FaceShape": {
+      "Pointy": 1,
+      "Square": 0,
+      "Chiseled": 0
+    },
+    "BodyShape": {
+      "Pear": 0,
+      "Triangle": 0,
+      "Hourglass": 0
+    },
+    "NeckArea": {
+      "Neck_Shoulders_Tuck_In": 0,
+      "Neck_Shoulders_High": 0,
+      "Neck_Shoulders_Wide": 0
+    }
+  },
+  "selections": {
+    "Hair": {
+      "value": "Receding_Short_001",
+      "properties": {
+        "TextureVariants_Receding_Short_001": "Variant_Receding_Short_001_Plain",
+        "Receding_Short_001_GeoVariants": "Receding_Short_001_Hat"
+      }
+    },
+    "Hair Dye": {
+      "value": "No Hair Dye"
+    },
+    "Hat": {
+      "value": "Beanie_001",
+      "properties": {
+        "Beanie_001_TextureVariants": "Beanie_001_KnitMultiColor"
+      }
+    },
+    "Hat Secondary Color": {
+      "value": "Hat Secondary Color Item"
+    },
+    "Eyebrows": {
+      "value": "SShape_002"
+    },
+    "Eyes": {
+      "value": "Eyes Oval_002_Variant001"
+    },
+    "Mouth": {
+      "value": "Simple"
+    },
+    "Noses": {
+      "value": "Nose_Upturned_001"
+    },
+    "Skin": {
+      "value": "Skin",
+      "properties": {
+        "Skin_Hair_Variants": "Variant_Skin_BaldHead",
+        "FacialHairVariants": "FacialHairVariant_NoStubble"
+      }
+    },
+    "Top": {
+      "value": "Sweater_CrewNeck_001",
+      "properties": {
+        "TextureVariants_Sweater_CrewNeck_001": "Variant_Sweater_CrewNeck_001_Diamond"
+      }
+    },
+    "Top Secondary Color": {
+      "value": "Top Secondary Color Item"
+    },
+    "Jacket": {
+      "value": "No Jacket"
+    },
+    "Jacket Secondary Color": {
+      "value": "Jacket Secondary Color Item"
+    },
+    "Bottom": {
+      "value": "Pants_Buttonfly_001",
+      "properties": {
+        "TextureVariations_Pants_Buttonfly_001": "Variant_Pants_Buttonfly_001_Plain"
+      }
+    },
+    "Body Blends": {
+      "value": "Body Default"
+    },
+    "Face Blends": {
+      "value": "Face Pointy"
+    },
+    "Facial Hair": {
+      "value": "Mustache_Handlebar_001",
+      "properties": {
+        "TextureVariants_Mustache_Handlebar_001": "Variant_Mustache_Handlebar_001"
+      }
+    },
+    "Eyewear": {
+      "value": "Glasses_FlatTop_001",
+      "properties": {
+        "TextureVariants_Glasses_FlatTop_001": "Variant_FlatTop_001_Plain"
+      }
+    },
+    "Hands": {
+      "value": "Hands_Default"
+    },
+    "Fingernails": {
+      "value": "Fingernails_Default",
+      "properties": {
+        "TextureVariants_Fingernails": "Variant_Plain_Fingernails",
+        "GeoVariants_Fingernails_Style": "Variant_Short_Fingernails"
+      }
+    },
+    "Neck Area Blends": {
+      "value": "Neck_Area_Blends",
+      "properties": {
+        "Neck_Area_Blend_Variants": "neck_default"
+      }
+    }
+  }
+}
