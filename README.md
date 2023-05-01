@@ -103,5 +103,11 @@ blender.exe -b --python avatar.py -- \
 ## TODOs
 - eyes and mouth for VRC
 
+# VRC Uploader
+- run in batch mode:
+```
+Unity.exe -batchmode -nographics -executeMethod upload.AutoUpload -logFile log.txt -username yourusername -email youremail
+```
+
 ---
 > **Note** the models and textures are not included, they are properties of Microsoft
