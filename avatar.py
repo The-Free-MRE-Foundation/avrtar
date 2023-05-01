@@ -1,17 +1,18 @@
 """Altspace Avatar Assembler
+This Blender Python script generates 3D Altspace Avatar models based on customization values.
+It reads customization JSON from stdin, assembles the avatar mesh in Blender, and applies
+colorization and blending to textures. Additionally, it sets and applies shape keys for
+various face and body shapes.
 
-This blender python script generates 3D models of Altspace Avatars based on customization values.
-It takes the customization json from stdin then assembles the avatar mesh in blender.
-It colorizes the main texture and blends it with a secondary patterns texture if exists. 
-It also sets and applies shape keys to allow different face and body shapes.
-If the -p or --preview flag is set, it will generate a preview of the avatar in the same folder as the output fbx.
-If the -r or --rig flag is set, it will autorig your avatar and export as humanoid rig
-If the -c or --vrc flag is set, it will prepares the model for vrc (forces autorig)
-    operation includes: packing textures into an atlas
+Optional flags:
+    -p or --preview: Generates a preview of the avatar in the same folder as the output FBX.
+    -r or --rig: Auto-rigs the avatar and exports as a humanoid rig.
+    -c or --vrc: Prepares the model for VRC (forces auto-rigging) and packs textures into an atlas.
 
-PS:
-    the shape key feature only works on windows, other features also may not work on linux
+Note:
+    The shape key feature is only supported on Windows, and some features may not work on Linux.
 """
+
 __author__ = "luminosity_altvr"
 __copyleft__ = "Copyleft 2023, The Free MRE Foundation"
 __credits__ = ["DaveVR", "maximuszesala", "BenG"]
