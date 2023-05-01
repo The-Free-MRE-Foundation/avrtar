@@ -54,6 +54,7 @@ npm start_prod
 ```
 
 ## TODOs
+- responsiveness
 - containerize & k8s
 
 # Altspace Avatar Assembler
