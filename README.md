@@ -1,10 +1,10 @@
-# Avrtar: (AltspaceVR Avatar app)
-An app to help altspacer preserve avatars before Altspace shuts down.  
+# Avrtar: AltspaceVR Avatar App
+An application to help Altspace users preserve their avatars before Altspace shuts down.  
 By [DaveVR](https://discord.com/users/425958565812109342), [Luminosity](https://discord.com/users/508212993574567958) and [Max](https://discord.com/users/548094385750016000). Special thanks to [BenG](https://discord.com/users/321369881989611522) for all the help.
 
 ## 1. Preserve My Avatars Web App
-### Configure
-- edit next.config.js:
+### Configuration
+- Edit next.config.js:
     ```js
     /** @type {import('next').NextConfig} */
     const nextConfig = {
@@ -15,7 +15,7 @@ By [DaveVR](https://discord.com/users/425958565812109342), [Luminosity](https://
 
     module.exports = nextConfig
     ```
-- (for when you are hosting locally) reverse proxy (nginx as example):
+- (For local hosting) Set up a reverse proxy (nginx example):
     ```nginx
         server {
             listen 443 ssl;
@@ -35,7 +35,7 @@ By [DaveVR](https://discord.com/users/425958565812109342), [Luminosity](https://
             }
         }
     ```
-- add `.env` file:
+- Add `.env` file:
     ```bash
     cp .env.example .env
     ```
@@ -58,8 +58,8 @@ npm start_prod
 ```
 
 ### TODOs
-- responsiveness
-- containerize & k8s
+- Add responsiveness
+- Containerize & use Kubernetes
 
 ## 2. Altspace Avatar Assembler
 
@@ -68,9 +68,9 @@ npm start_prod
 [Auto-Rig Pro ](https://blendermarket.com/products/auto-rig-pro)(v3.67.18)
 - for `-c` or `--vrc`:
   - [Cats Blender Plugin](https://github.com/absolute-quantum/cats-blender-plugin) (v0.19.1)  
-(on development branch as of writting)
+(On development branch as of writing)
   - [material-combiner-addon](https://github.com/Grim-es/material-combiner-addon)  
-(only one version as of writting)
+(Only one version as of writing)
 
 ### Usage
 ```
